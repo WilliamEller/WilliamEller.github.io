@@ -23,3 +23,12 @@ div{
     padding-left: 5px;
     padding-bottom: 0px;
 }
+
+.entry a:link{
+    text-decoration: none;
+    color: black;
+}
+.entry a:visited{
+    text-decoration: none;
+    color: black;
+}
