@@ -6,6 +6,7 @@ div{
 }
 
 #content{
+    background: black;
     float: left;
     width: 880px; /*idk if i like this*/
     padding-top: 25px;
