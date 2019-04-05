@@ -4,6 +4,12 @@ body {
 div{
     display: block;
 }
+img{
+    max-height: 355px;
+    min-height: 350px;
+    max-width: 375px;
+    min-width: 370px;
+}
 
 #content{
     background: darkgray;
