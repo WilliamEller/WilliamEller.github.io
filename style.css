@@ -14,6 +14,11 @@ div{
     padding-left: 15px;
 }
 
+#slideShowStart{
+    display: block;
+}
+
+
 .post{
     margin-bottom: 25px;
 }
@@ -25,11 +30,15 @@ div{
     padding-bottom: 0px;
 }
 
+.slide{
+    display: none;
+}
+
 .image{
     max-height: 355px;
     min-height: 350px;
-    max-width: 375px;
-    min-width: 370px;
+    max-width: 675px;
+    min-width: 670px;
 }
 
 .entry a:link{

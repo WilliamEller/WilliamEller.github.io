@@ -8,6 +8,8 @@
     <title>Document</title>
 </head>
 <body>
+    <script src="slideshow.js"></script>
+
     <header>
         <nav>
             <a href="index.html">Home Page</a>
@@ -16,5 +18,24 @@
         </nav>
     </header>
     <hr/>
+    <div id="content">
+        <div class="post">
+            <div class="entry">
+                <button id="leftButt" onclick="slideChange(-1)">Back</button>
+                <button id="rightBut" onclick="slideChange(+1)">Next</button>
+                <div class="slide" id="slideShowStart">
+                    <img class="image" src="Images/TestPic.PNG">
+                    <p>This is the entrance to the middle area of the map.</p>
+                </div>
+                <div class="slide">
+                    <p>This is just a test</p>
+                </div>
+            </div>
+            <div class="entry">
+                <h2>The Thought Behind The Game</h2>
+                <p>The game was made for a spring themed game jam. whenever I think of Spring i think of the cherry blossom trees and how pretty they look when they lose their leaves. I wanted the mechanics of the game to be simple so I could focus on Level Design. The controls are simple and the puzzles are easy but I wanted to try and tell a story without words, (I ended up using some words at the end but fore the most part no actual guidance is given to the player).</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
