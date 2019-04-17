@@ -4,13 +4,42 @@ body {
 div{
     display: block;
 }
+header{
+    display: block;
+    width: 895px;
+    height: 45px;
+    background: darkgrey;
+}
+nav{
+    float: left;
+    height: 35px;
+}
+nav a{
+    height: 35px;
+    display: block;
+    float: left;
+    padding: 10px 15px 0px 15px;
+    border-right: 5px solid lightgray;
+}
+nav a:link{
+    text-decoration: none;
+    color: black;
+}
+nav a:visited{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    text-decoration: none;
+    color:darkslategray;
+}
 
 
 #content{
     background: darkgray;
     float: left;
     width: 880px; /*idk if i like this*/
-    padding-top: 25px;
+    padding-top: 5px;
     padding-left: 15px;
 }
 
