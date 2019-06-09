@@ -1,14 +1,19 @@
 body {
     background-color: black;
+    background-image: url(Images/MoonV3.jpg)
 }
 div{
     display: block;
 }
 header{
     display: block;
-    width: 895px;
+    width: 910px;
     height: 45px;
     background: darkgrey;
+}
+hr{
+    width: 910px;
+    float: left;
 }
 nav{
     float: left;
@@ -37,14 +42,26 @@ nav a:hover{
 
 #content{
     background: darkgray;
-    float: left;
-    width: 880px; /*idk if i like this*/
+    /* float: left; */
+    /* width: 80%; */
+    display: inline-block;
+    /*idk if i like this*/
+    width: 880px; 
     padding-top: 5px;
     padding-left: 15px;
+    padding-right: 15px;
 }
 
 #slideShowStart{
     display: block;
+}
+
+.moon{
+    /* float: right; */
+    width: (100% - 880px);
+    display: inline-block;
+    height: 1070px;
+    object-fit: fill;
 }
 
 
@@ -57,6 +74,15 @@ nav a:hover{
     padding-right: 0px;
     padding-left: 5px;
     padding-bottom: 0px;
+    margin-bottom: 20px; 
+    border-radius: 5px;
+}
+.entry p{
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px; 
+    margin:5px;  
 }
 
 .slide{
@@ -66,8 +92,9 @@ nav a:hover{
 .image{
     max-height: 355px;
     min-height: 350px;
-    max-width: 675px;
-    min-width: 670px;
+    max-width: 871px;
+    min-width: 870px;
+    margin-top: 5px;
 }
 
 .entry a:link{
