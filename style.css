@@ -1,6 +1,10 @@
 body {
     background-color: black;
+<<<<<<< HEAD
     background-image: url(Images/MoonV3.jpg)
+=======
+    
+>>>>>>> a5356034092fe1ae294b3a01126fdf9905c136b0
 }
 div{
     display: block;
